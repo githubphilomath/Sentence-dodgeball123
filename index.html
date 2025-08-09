@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sentence Dodgeball</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Sentence Dodgeball</h1>
+
+  <div id="banner"></div>
+  <div id="gameArea"></div>
+
+  <div id="popup" class="hidden">
+    <div id="popup-content">
+      <span id="popup-emoji"></span>
+      <h2 id="popup-message"></h2>
+      <button id="popup-close">Play Again</button>
+    </div>
+  </div>
+
+  <button id="startBtn">Start Game</button>
+  <div id="scoreDisplay">Score: 0</div>
+  <div id="statusText"></div>
+  <select id="targetSelect">
+    <option value="Noun">Catch Nouns</option>
+    <option value="Verb">Catch Verbs</option>
+  </select>
+
+  <script src="game.js"></script>
+</body>
+</html>
